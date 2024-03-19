@@ -9,12 +9,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .navlist {
     list-style: none;
     display: inline;
-    text-align: center;
     margin: 20px;
     font-size: 14px;
 }
