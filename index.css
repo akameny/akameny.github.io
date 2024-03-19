@@ -13,6 +13,7 @@ nav {
 
 .navlist {
     list-style: none;
+    display: inline;
     margin: 20px;
     font-size: 14px;
 }
