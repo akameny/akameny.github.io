@@ -25,7 +25,7 @@ nav {
 }
 
 header {
-    height: 90px;
+    height: 110px;
 }
 
 #logo {
@@ -35,7 +35,7 @@ header {
 }
 
 main {
-    height: 400px;
+    /* height: 400px; */
     overflow: auto;
 }
 
