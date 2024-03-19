@@ -24,16 +24,6 @@ nav {
     margin: 20px;
 }
 
-/* nav {
-    text-align: center;
-}
-
-li.navlist {
-    display: inline;
-    margin: 20px;
-    font-size: 14px;
-} */
-
 header {
     height: 120px;
 }
@@ -90,9 +80,8 @@ article {
     padding: 20px;
     font-size: 14px;
     line-height: 18px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 
 .about-div {
     display: flex;
