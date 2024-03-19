@@ -15,8 +15,14 @@ nav {
 .navlist {
     list-style: none;
     display: inline;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
     font-size: 14px;
+}
+
+.navlist li {
+    margin: 20px;
 }
 
 /* nav {
