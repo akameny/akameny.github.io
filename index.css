@@ -10,6 +10,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .navlist {
@@ -94,9 +95,9 @@ p.about {
     font-size: 14px;
 }
 
-.post-section {
+/* .post-section {
     margin-top: 20px;
-}
+} */
 
 .active {
     text-decoration: underline;
