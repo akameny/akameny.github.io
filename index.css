@@ -17,7 +17,7 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .navlist li {
@@ -67,14 +67,14 @@ img {
 article {
     border: 1px solid #6f8fc1;
     border-radius: 10px;
-    max-width: 440px;
+    max-width: 400px;
     max-height: 300px;
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 15px;
     margin-bottom: 20px;
 }
 
@@ -86,7 +86,7 @@ article {
 p.about {
     text-align: center;
     width: 440px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -97,10 +97,10 @@ p.about {
 
 .title {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .date {
     font-style: italic;
-    font-size: 12px;
+    font-size: 10px;
 }
