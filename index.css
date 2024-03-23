@@ -1,7 +1,7 @@
 body {
     padding: 50px;
     background-color: #c0d9ff;
-    color: #6f8fc1;
+    color: #2b2522;
     font-family: poppins, sans-serif;
 }
 
@@ -37,17 +37,17 @@ header {
 
 a {
     text-decoration: none;
-    color: #6f8fc1;
+    color: #2b2522;
 }
 
 a:hover {
     text-decoration: underline;
-    color:#6f8fc1;
+    color:#2b2522;
 }
 
 a:active {
     text-decoration: underline;
-    text-decoration-color: #6f8fc1;
+    text-decoration-color: #2b2522;
 }
 
 .post-img {
@@ -65,7 +65,7 @@ img {
 }
 
 article {
-    border: 1px solid #6f8fc1;
+    border: 1px solid #2b2522;
     border-radius: 10px;
     max-width: 400px;
     max-height: 300px;
@@ -92,7 +92,7 @@ p.about {
 
 .active {
     text-decoration: underline;
-    text-decoration-color:#6f8fc1;
+    text-decoration-color:#2b2522;
 }
 
 .title {
