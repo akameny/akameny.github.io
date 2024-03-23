@@ -1,7 +1,7 @@
 body {
     padding: 50px;
-    background-color: #f3f3ff;
-    color: #50509b;
+    background-color: #e1ccc3;
+    color: #6f8fc1;
     font-family: poppins, sans-serif;
 }
 
@@ -25,7 +25,7 @@ nav {
 }
 
 header {
-    max-height: 90px;
+    max-height: 80px;
     margin-bottom: 80px;
 }
 
@@ -37,17 +37,17 @@ header {
 
 a {
     text-decoration: none;
-    color: #50509b;
+    color: #6f8fc1;
 }
 
 a:hover {
     text-decoration: underline;
-    color:#50509b;
+    color:#6f8fc1;
 }
 
 a:active {
     text-decoration: underline;
-    text-decoration-color: #50509b;
+    text-decoration-color: #6f8fc1;
 }
 
 .post-img {
@@ -65,7 +65,7 @@ img {
 }
 
 article {
-    border: 1px solid #50509b;
+    border: 1px solid #6f8fc1;
     border-radius: 10px;
     max-width: 440px;
     max-height: 300px;
@@ -89,13 +89,10 @@ p.about {
     font-size: 14px;
 }
 
-/* .post-section {
-    margin-top: 20px;
-} */
 
 .active {
     text-decoration: underline;
-    text-decoration-color:#50509b;
+    text-decoration-color:#6f8fc1;
 }
 
 .title {
