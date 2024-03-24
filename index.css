@@ -95,6 +95,10 @@ p.about {
     text-decoration-color:#6f8fc1;
 }
 
+.body {
+    font-size: 12px;
+}
+
 .title {
     font-weight: bold;
     font-size: 12px;
