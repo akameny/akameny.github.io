@@ -1,12 +1,12 @@
 @font-face {
   font-family: Afacad;
-  src: url(Afacad.ttf) format(truetype),
+  src: url("Afacad.ttf") format("truetype"),
 
 body {
     padding: 50px;
     background-color: #ffffff;
     color: #999999;
-    font-family: Afacad, sans-serif;
+    font-family: "Afacad", sans-serif;
 }
 
 header {
