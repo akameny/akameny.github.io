@@ -13,7 +13,7 @@ header {
 }
 
 #logo {
-    max-width: 400px;
+    max-width: 100%;
     max-height: auto;
     margin-left: auto;
     margin-right: auto;
