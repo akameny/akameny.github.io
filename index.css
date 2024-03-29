@@ -1,57 +1,61 @@
+/* Define custom font */
 @font-face {
   font-family: "Afacad";
-  src: url("Afacad.ttf") format("truetype"),
+  src: url("Afacad.ttf") format("truetype");
+}
 
+/* Global styles */
 body {
-    padding: 50px;
-    background-color: #ffffff;
-    color: #999999;
-    font-family: "Afacad", sans-serif;
+  padding: 50px;
+  background-color: #ffffff;
+  color: #999999;
+  font-family: "Afacad", sans-serif;
 }
 
+/* Header styles */
 header {
-    max-height: auto;
-    max-width: 400px;
-    margin: auto;
-    margin-bottom: 3%;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 3%;
 }
 
+/* Logo styles */
 #logo {
-    max-width: 100%;
-    max-height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    height: auto;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 2%;
 }
 
+/* Article styles */
 article {
-    border: 1px solid #999999;
-    border-radius: 5px;
-    max-width: 380px;
-    max-height: 300px;
-    overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-bottom: 20px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  max-width: 380px;
+  max-height: 300px;
+  overflow: auto;
+  margin: auto;
+  padding: 10px;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
 }
 
+/* Body text styles */
 .body {
-    font-size: 1em;
-    font-weight: normal; 
+  font-size: 1em;
+  font-weight: normal;
 }
 
+/* Title styles */
 .title {
-    font-weight: 600;
-    font-size: 1emx;
+  font-weight: 600;
+  font-size: 1em; /* Fixed typo '1emx' */
 }
 
+/* Date styles */
 .date {
-    font-style: italic;
-    font-size: .8em;
+  font-style: italic;
+  font-size: 0.8em; /* Adjusted to proper decimal format */
 }
 
 /* nav {
