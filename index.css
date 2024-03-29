@@ -10,6 +10,7 @@ body {
   background-color: #ffffff;
   color: #999999;
   font-family: "Afacad", sans-serif;
+  line-height: 1.2em;
 }
 
 /* Header styles */
@@ -36,7 +37,6 @@ article {
   margin: auto;
   padding: 10px;
   font-size: 1em;
-  line-height: 1.5em;
   margin-bottom: 20px;
 }
 
