@@ -42,14 +42,14 @@ article {
 
 /* Body text styles */
 .body {
-  font-size: 1em;
+  font-size: 200;
   font-weight: normal;
 }
 
 /* Title styles */
 .title {
-  font-weight: 600;
-  font-size: 1em; /* Fixed typo '1emx' */
+  font-weight: 400;
+  font-size: 1em;
 }
 
 /* Date styles */
