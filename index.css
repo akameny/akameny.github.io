@@ -1,43 +1,74 @@
 /* Define custom font */
 @font-face {
-  font-family: "Afacad";
-  src: url("Afacad.ttf") format("truetype");
+    font-family: "Afacad";
+    src: url("Afacad.ttf") format("truetype");
+  }
+  
+  /* Global styles */
+  body {
+    padding: 50px;
+    background-color: #ffffff;
+    color: #999999;
+    font-family: "Afacad", sans-serif;
+    line-height: 1.2em;
+  }
+  
+  /* Header styles */
+  header {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+  
+  /* Logo styles */
+  #logo {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+  
+  /* Article styles */
+  article {
+    border: 1px solid #999999;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 300px;
+    overflow: auto;
+    margin: auto;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Body text styles */
+  .body {
+    font-size: 1em;
+    font-weight: 100;
+  }
+  
+  /* Title styles */
+  .title {
+    font-weight: 500;
+    font-size: 1em; 
+  }
+  
+  /* Date styles */
+  .date {
+    font-style: italic;
+    font-size: 0.8em; /* Adjusted to proper decimal format */
+    color: #ffffff;
+    margin-left: 10px;
+  }
+  
+#block {
+    background-color:#999999;
+    height: 22px;
 }
 
-/* Global styles */
-body {
-  padding: 50px;
-  background-color: #ffffff;
-  color: #999999;
-  font-family: "Afacad", sans-serif;
-  line-height: 1.2em;
-}
-
-/* Header styles */
-header {
-  max-width: 400px;
-  margin: auto;
-  margin-bottom: 2%;
-}
-
-/* Logo styles */
-#logo {
-  max-width: 100%;
-  margin: auto;
-  margin-bottom: 2%;
-}
-
-/* Article styles */
-article {
-  border: 1px solid #999999;
-  border-radius: 5px;
-  max-width: 380px;
-  max-height: 300px;
-  overflow: auto;
-  margin: auto;
-  padding: 10px;
-  font-size: 1em;
-  margin-bottom: 20px;
+#paragraph {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 /* Body text styles */
