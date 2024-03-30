@@ -1,14 +1,7 @@
-/* /* Define custom font */
+/* Define custom font */
 @font-face {
   font-family: "Afacad";
   src: url("Afacad.ttf") format("truetype");
-} */
-
-.lora-lora {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 /* Global styles */
@@ -16,8 +9,8 @@ body {
   padding: 50px;
   background-color: #ffffff;
   color: #999999;
-  font-family: "Lora", sans-serif;
-  line-height: 1.5em;
+  font-family: "Afacad", sans-serif;
+  line-height: 1.2em;
 }
 
 /* Header styles */
