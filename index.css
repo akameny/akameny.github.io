@@ -42,13 +42,13 @@ article {
 
 /* Body text styles */
 .body {
-  font-size: 200;
+  font-size: 1em;
   font-weight: normal;
 }
 
 /* Title styles */
 .title {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1em;
 }
 
