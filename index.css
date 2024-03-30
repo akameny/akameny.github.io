@@ -1,7 +1,7 @@
 /* Define custom font */
 @font-face {
-  font-family: "Afacad";
-  src: url("Afacad.ttf") format("truetype");
+  font-family: "Manrope";
+  src: url("Manrope.ttf") format("truetype");
 }
 
 /* Global styles */
@@ -9,7 +9,7 @@ body {
   padding: 50px;
   background-color: #ffffff;
   color: #999999;
-  font-family: "Afacad", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1.2em;
 }
 
@@ -48,7 +48,7 @@ article {
 
 /* Title styles */
 .title {
-  font-weight: 500;
+  font-weight: 200;
   font-size: 1em;
 }
 
