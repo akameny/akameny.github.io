@@ -1,7 +1,7 @@
 /* Define custom font */
 @font-face {
-  font-family: "Manrope";
-  src: url("Manrope.ttf") format("truetype");
+  font-family: "Afacad";
+  src: url("Afacad.ttf") format("truetype");
 }
 
 /* Global styles */
@@ -9,7 +9,7 @@ body {
   padding: 50px;
   background-color: #ffffff;
   color: #999999;
-  font-family: "Manrope", sans-serif;
+  font-family: "Afacad", sans-serif;
   line-height: 1.2em;
 }
 
