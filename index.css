@@ -7,8 +7,8 @@
   /* Global styles */
   body {
     padding: 50px;
-    background-color: #ffffff;
-    color: #999999;
+    background-color: #bcccc2;
+    color: #f7f7f7;
     font-family: "Afacad", sans-serif;
     line-height: 1.2em;
   }
@@ -29,7 +29,7 @@
   
   /* Article styles */
   article {
-    border: 1px solid #999999;
+    border: 1px solid #f7f7f7;
     border-radius: 5px;
     max-width: 400px;
     max-height: 300px;
@@ -56,12 +56,12 @@
   .date {
     font-style: italic;
     font-size: 0.8em; /* Adjusted to proper decimal format */
-    color: #ffffff;
+    color: #bcccc2;
     margin-left: 10px;
   }
   
 #block {
-    background-color:#999999;
+    background-color:#f7f7f7;
     height: 22px;
 }
 
@@ -69,24 +69,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-}
 
-/* Body text styles */
-.body {
-  font-size: 1em;
-  font-weight: normal;
-}
-
-/* Title styles */
-.title {
-  font-weight: 500;
-  font-size: 1em;
-}
-
-/* Date styles */
-.date {
-  font-style: italic;
-  font-size: 0.8em; /* Adjusted to proper decimal format */
 }
 
 /* nav {
