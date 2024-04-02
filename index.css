@@ -7,8 +7,8 @@
   /* Global styles */
   body {
     padding: 50px;
-    background-color: #bcccc2;
-    color: #f7f7f7;
+    background-color: #ffffff;
+    color: #bcccc2;
     font-family: "Afacad", sans-serif;
     line-height: 1.2em;
   }
@@ -29,7 +29,7 @@
   
   /* Article styles */
   article {
-    border: 1px solid #f7f7f7;
+    border: 1px solid #bcccc2;
     border-radius: 5px;
     max-width: 400px;
     max-height: 300px;
@@ -56,9 +56,21 @@
   .date {
     font-style: italic;
     font-size: 0.8em; /* Adjusted to proper decimal format */
-    color: #bcccc2;
+    color: #ffffff;
     margin-left: 10px;
   }
+  
+#block {
+    background-color:#bcccc2;
+    height: 22px;
+}
+
+#paragraph {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
   
 #block {
     background-color:#f7f7f7;
