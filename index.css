@@ -3,6 +3,11 @@
     font-family: "poppins";
     src: url("Poppins.ttf") format("truetype");
   }
+
+@font-face {
+    font-family: "poppins-semibold";
+    src: url("Poppins-Semibold.ttf") format("truetype");
+  }
   
   /* Global styles */
   body {
@@ -42,7 +47,7 @@
   }
 
   #intro {
-    font-weight: 500;
+    font-family: poppins-semibold;
   }
   
   /* Body text styles */
@@ -53,7 +58,7 @@
   
   /* Title styles */
   .title {
-    font-weight: 500;
+    font-family: poppins-semibold;
     font-size: 1em; 
   }
   
