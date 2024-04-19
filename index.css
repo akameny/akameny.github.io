@@ -1,16 +1,17 @@
 /* Define custom font */
 @font-face {
-    font-family: "Afacad";
-    src: url("Afacad.ttf") format("truetype");
+    font-family: "poppins";
+    src: url("Poppins.ttf") format("truetype");
   }
   
   /* Global styles */
   body {
     padding: 50px;
-    background-color: #ffffff;
-    color: #bcccc2;
-    font-family: "Afacad", sans-serif;
-    line-height: 1.2em;
+    background-color: #f2f3e2;
+    color: #706777;
+    font-family: "poppins", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
   }
   
   /* Header styles */
@@ -29,21 +30,25 @@
   
   /* Article styles */
   article {
-    border: 1px solid #bcccc2;
+    border: 1px solid #706777;
     border-radius: 5px;
     max-width: 400px;
     max-height: 300px;
     overflow: auto;
     margin: auto;
     font-size: 1em;
-    line-height: 1.2em;
+    line-height: 1.5em;
     margin-bottom: 20px;
+  }
+
+  #intro {
+    font-weight: 500;
   }
   
   /* Body text styles */
   .body {
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 400;
   }
   
   /* Title styles */
@@ -54,15 +59,14 @@
   
   /* Date styles */
   .date {
-    font-style: italic;
     font-size: 0.8em; /* Adjusted to proper decimal format */
-    color: #ffffff;
+    color: #f2f3e2;
     margin-left: 10px;
   }
   
 #block {
-    background-color:#bcccc2;
-    height: 22px;
+    background-color:#706777;
+    height: 28px;
 }
 
 #paragraph {
@@ -70,57 +74,4 @@
     padding-right: 10px;
     padding-bottom: 10px;
 
-
-/* nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-
-.navlist {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    font-size: 1em;
-}
-
-.navlist li {
-    margin: 20px;
-} */
-
-/* a {
-    text-decoration: none;
-    color: #6f8fc1;
-}
-
-a:hover {
-    text-decoration: underline;
-    color:#6f8fc1;
-}
-
-a:active {
-    text-decoration: underline;
-    text-decoration-color: #6f8fc1;
-} */
-
-/* .post-img {
-    width: 200px;
-    display: inline;
-    float: left;
-    padding-right: 20px;
-    padding-top: 20px;
-} */
-
-/* p.intro {
-    text-align: center;
-    width: 440px;
-    font-size: 1em;
-} */
-
-
-/* .active {
-    text-decoration: underline;
-    text-decoration-color:#6f8fc1;
-} */
