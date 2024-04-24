@@ -64,7 +64,7 @@
   
   /* Date styles */
   .date {
-    font-size: 0.8em; /* Adjusted to proper decimal format */
+    font-size: 1em; /* Adjusted to proper decimal format */
     color: #f2f3e2;
     margin-left: 10px;
   }
